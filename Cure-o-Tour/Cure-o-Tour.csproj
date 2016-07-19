@@ -102,6 +102,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signup.xaml.cs">
+      <DependentUpon>signup.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -110,6 +113,7 @@
     <None Include="Cure-o-Tour_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\ab0cea2271373ccb07e5fae0eba42a67.png" />
     <Content Include="Assets\appoinments.png" />
     <Content Include="Assets\back.png" />
     <Content Include="Assets\camera.png" />
@@ -130,6 +134,7 @@
     <Content Include="Assets\helppage.PNG" />
     <Content Include="Assets\home.png" />
     <Content Include="Assets\homepage.PNG" />
+    <Content Include="Assets\Ic_arrow_back_36px.svg.png" />
     <Content Include="Assets\institute.png" />
     <Content Include="Assets\login.PNG" />
     <Content Include="Assets\loginas.PNG" />
@@ -172,6 +177,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="signup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
