@@ -24,11 +24,11 @@
 
 
         <TextBlock x:Name="textBlock" Margin="71,26,10,0" TextWrapping="Wrap" Text="Sign up" FontSize="30" TextAlignment="Left" Foreground="White" Height="72" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="40" Margin="36,125,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="284" FontSize="18"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="43" Margin="36,189,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="181" FontSize="18"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="40" Margin="36,250,0,0" TextWrapping="Wrap" Text="Contact number" VerticalAlignment="Top" Width="284" FontSize="18"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="40" Margin="36,301,0,0" TextWrapping="Wrap" Text="Email ID" VerticalAlignment="Top" Width="284" FontSize="18"/>
-        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="40" Margin="36,480,0,0" TextWrapping="Wrap" Text="Country" VerticalAlignment="Top" Width="284" FontSize="18"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="40" Margin="36,125,0,0" TextWrapping="Wrap" PlaceholderText="Name" VerticalAlignment="Top" Width="284" FontSize="18"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="43" Margin="36,189,0,0" TextWrapping="Wrap" PlaceholderText="Username" VerticalAlignment="Top" Width="181" FontSize="18"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="40" Margin="36,250,0,0" TextWrapping="Wrap" PlaceholderText="Contact number" VerticalAlignment="Top" Width="284" FontSize="18"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="40" Margin="36,301,0,0" TextWrapping="Wrap" PlaceholderText="Email ID" VerticalAlignment="Top" Width="284" FontSize="18"/>
+        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="40" Margin="36,480,0,0" TextWrapping="Wrap" PlaceholderText="Country" VerticalAlignment="Top" Width="284" FontSize="18"/>
         <Button x:Name="button" Content="Check" HorizontalAlignment="Left" Height="35" Margin="236,193,0,0" VerticalAlignment="Top" Width="84" FontSize="18"/>
         <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="35" Margin="62,393,0,0" VerticalAlignment="Top" Width="199" Password=""/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="22" Margin="60,363,0,0" TextWrapping="Wrap" Text="Set Password:" VerticalAlignment="Top" Width="157" FontSize="18"/>

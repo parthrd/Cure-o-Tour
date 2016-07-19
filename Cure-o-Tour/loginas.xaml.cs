@@ -31,5 +31,10 @@ namespace Cure_o_Tour
         {
 
         }
+
+        private void button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(signup), null);
+        }
     }
 }
