@@ -27,12 +27,12 @@
         <TextBlock x:Name="textBlock" Margin="-10,10,10,0" TextWrapping="Wrap" Text="Cure-o-Tour" FontSize="48" TextAlignment="Center" Foreground="White" Height="88" VerticalAlignment="Top"/>
         <Button x:Name="developer" Content="Developer" HorizontalAlignment="Stretch" Height="58" Margin="209,584,9,-2" VerticalAlignment="Top" RenderTransformOrigin="1.22,1.782" FontSize="20" Foreground="#FF1B1919" Background="#00032836" FontFamily="SansSerif"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="35,165,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" FontSize="30" FontStyle="Italic" Height="46"/>
-        <TextBox x:Name="textBox" Height="56" Margin="30,210,29,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" FontSize="30"/>
+        <TextBox x:Name="uname" Height="56" Margin="30,210,29,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" FontSize="30" Width="300"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="46" Margin="35,305,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="182" FontSize="30" FontStyle="Italic"/>
-        <TextBox x:Name="textBox_Copy" Height="56" Margin="30,350,24,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" FontSize="30"/>
-        <Button x:Name="button" Content="Sign in" HorizontalAlignment="Left" Height="50" Margin="185,450,0,0" VerticalAlignment="Top" Width="124" Background="#3300A8B0" FontSize="28" Click="button_Click"/>
-        <Button x:Name="button_Copy" Content="New user? Sign up" HorizontalAlignment="Left" Height="43" Margin="60,515,0,0" VerticalAlignment="Top" Width="232" Background="#3300A8B0" FontSize="24" FontStyle="Italic" Click="button_Copy_Click"/>
-        <Button x:Name="button1" Content="Forgot Password?" HorizontalAlignment="Left" Height="45" Margin="11,451,0,0" VerticalAlignment="Top" Width="165" Background="{x:Null}" FontSize="18"/>
+        <Button x:Name="signin" Content="Sign in" HorizontalAlignment="Left" Height="50" Margin="185,450,0,0" VerticalAlignment="Top" Width="124" Background="#3300A8B0" FontSize="28" Click="button_Click"/>
+        <Button x:Name="signup" Content="New user? Sign up" HorizontalAlignment="Left" Height="43" Margin="60,515,0,0" VerticalAlignment="Top" Width="232" Background="#3300A8B0" FontSize="24" FontStyle="Italic" Click="button_Copy_Click"/>
+        <Button x:Name="forgot" Content="Forgot Password?" HorizontalAlignment="Left" Height="45" Margin="11,451,0,0" VerticalAlignment="Top" Width="165" Background="{x:Null}" FontSize="18"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="56" Margin="30,350,0,0" VerticalAlignment="Top" Width="300"/>
 
 
     </Grid>
